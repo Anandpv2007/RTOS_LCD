@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration>
+  <DisplayManager>
+    <SystemInitScript dnOrder="0"/>
+    <SystemStartScript dnOrder="1"/>
+  </DisplayManager>
+  <General>
+    <HarmonyPath dnOrder="0" path="../.."/>
+    <Processor dnOrder="1" name="PIC32MX795F512L"/>
+    <Board dnOrder="2" name="Custom Board"/>
+    <ForceOptimization dnOrder="3" flag="true"/>
+    <MergeStrategy dnOrder="4" flag="ALL"/>
+  </General>
+  <Manifest>
+    <Files dnOrder="0">
+      <File dnOrder="0">
+        <Name dnOrder="0">ISR_Support.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS/portable/MPLAB/PIC32MX</Path>
+      </File>
+      <File dnOrder="1">
+        <Name dnOrder="0">semphr.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="2">
+        <Name dnOrder="0">drv_usbfs_local.h</Name>
+        <Path dnOrder="1">Header Files/framework/driver/usb/usbfs/src</Path>
+      </File>
+      <File dnOrder="3">
+        <Name dnOrder="0">driver_common.h</Name>
+        <Path dnOrder="1">Header Files/framework/driver</Path>
+      </File>
+      <File dnOrder="4">
+        <Name dnOrder="0">queue.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="5">
+        <Name dnOrder="0">portmacro.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS/portable/MPLAB/PIC32MX</Path>
+      </File>
+      <File dnOrder="6">
+        <Name dnOrder="0">croutine.c</Name>
+        <Path dnOrder="1">Source Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="7">
+        <Name dnOrder="0">drv_usbhs.h</Name>
+        <Path dnOrder="1">Header Files/framework/driver/usb/usbhs</Path>
+      </File>
+      <File dnOrder="8">
+        <Name dnOrder="0">drv_usbfs_static.h</Name>
+        <Path dnOrder="1">Header Files/framework/driver/usb/usbfs</Path>
+      </File>
+      <File dnOrder="9">
+        <Name dnOrder="0">port_asm.S</Name>
+        <Path dnOrder="1">Source Files/FreeRTOS/portable/MPLAB/PIC32MX</Path>
+      </File>
+      <File dnOrder="10">
+        <Name dnOrder="0">usb_device_local.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb/src</Path>
+      </File>
+      <File dnOrder="11">
+        <Name dnOrder="0">mpu_prototypes.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="12">
+        <Name dnOrder="0">usb_chapter_9.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+      <File dnOrder="13">
+        <Name dnOrder="0">list.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="14">
+        <Name dnOrder="0">driver.h</Name>
+        <Path dnOrder="1">Header Files/framework/driver</Path>
+      </File>
+      <File dnOrder="15">
+        <Name dnOrder="0">sys_int_pic32.c</Name>
+        <Path dnOrder="1">Source Files/framework/system/int/src</Path>
+      </File>
+      <File dnOrder="16">
+        <Name dnOrder="0">usb_device.c</Name>
+        <Path dnOrder="1">Source Files/framework/usb/src/dynamic</Path>
+      </File>
+      <File dnOrder="17">
+        <Name dnOrder="0">usb_device_hid.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+      <File dnOrder="18">
+        <Name dnOrder="0">sys_clk.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/clk</Path>
+      </File>
+      <File dnOrder="19">
+        <Name dnOrder="0">sys_ports_definitions.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/ports</Path>
+      </File>
+      <File dnOrder="20">
+        <Name dnOrder="0">port.c</Name>
+        <Path dnOrder="1">Source Files/FreeRTOS/portable/MPLAB/PIC32MX</Path>
+      </File>
+      <File dnOrder="21">
+        <Name dnOrder="0">usb_device.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+      <File dnOrder="22">
+        <Name dnOrder="0">sys_int_private.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/int/src</Path>
+      </File>
+      <File dnOrder="23">
+        <Name dnOrder="0">deprecated_definitions.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="24">
+        <Name dnOrder="0">system.h</Name>
+        <Path dnOrder="1">Header Files/framework/system</Path>
+      </File>
+      <File dnOrder="25">
+        <Name dnOrder="0">drv_usbfs.h</Name>
+        <Path dnOrder="1">Header Files/framework/driver/usb/usbfs</Path>
+      </File>
+      <File dnOrder="26">
+        <Name dnOrder="0">timers.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="27">
+        <Name dnOrder="0">heap_1.c</Name>
+        <Path dnOrder="1">Source Files/FreeRTOS/portable/MemMang</Path>
+      </File>
+      <File dnOrder="28">
+        <Name dnOrder="0">task.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="29">
+        <Name dnOrder="0">sys_int.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/int</Path>
+      </File>
+      <File dnOrder="30">
+        <Name dnOrder="0">drv_usb.h</Name>
+        <Path dnOrder="1">Header Files/framework/driver/usb</Path>
+      </File>
+      <File dnOrder="31">
+        <Name dnOrder="0">usb_billboard.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+      <File dnOrder="32">
+        <Name dnOrder="0">drv_usbfs.c</Name>
+        <Path dnOrder="1">Source Files/framework/driver/usb/usbfs/src/dynamic</Path>
+      </File>
+      <File dnOrder="33">
+        <Name dnOrder="0">list.c</Name>
+        <Path dnOrder="1">Source Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="34">
+        <Name dnOrder="0">osal_freertos.h</Name>
+        <Path dnOrder="1">Header Files/framework/osal</Path>
+      </File>
+      <File dnOrder="35">
+        <Name dnOrder="0">usb_host.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+      <File dnOrder="36">
+        <Name dnOrder="0">usb_hid.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+      <File dnOrder="37">
+        <Name dnOrder="0">osal.h</Name>
+        <Path dnOrder="1">Header Files/framework/osal</Path>
+      </File>
+      <File dnOrder="38">
+        <Name dnOrder="0">usb_device_hid_local.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb/src</Path>
+      </File>
+      <File dnOrder="39">
+        <Name dnOrder="0">StackMacros.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="40">
+        <Name dnOrder="0">osal_freertos.c</Name>
+        <Path dnOrder="1">Source Files/framework/osal/src</Path>
+      </File>
+      <File dnOrder="41">
+        <Name dnOrder="0">tasks.c</Name>
+        <Path dnOrder="1">Source Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="42">
+        <Name dnOrder="0">usb_host_hub_interface.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+      <File dnOrder="43">
+        <Name dnOrder="0">usb_common.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+      <File dnOrder="44">
+        <Name dnOrder="0">sys_ports.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/ports</Path>
+      </File>
+      <File dnOrder="45">
+        <Name dnOrder="0">usb_device_hid.c</Name>
+        <Path dnOrder="1">Source Files/framework/usb/src/dynamic</Path>
+      </File>
+      <File dnOrder="46">
+        <Name dnOrder="0">projdefs.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="47">
+        <Name dnOrder="0">portable.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="48">
+        <Name dnOrder="0">croutine.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="49">
+        <Name dnOrder="0">usb_hub.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+      <File dnOrder="50">
+        <Name dnOrder="0">sys_common.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/common</Path>
+      </File>
+      <File dnOrder="51">
+        <Name dnOrder="0">sys_buffer.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/common</Path>
+      </File>
+      <File dnOrder="52">
+        <Name dnOrder="0">usb_device_mapping.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb/src</Path>
+      </File>
+      <File dnOrder="53">
+        <Name dnOrder="0">event_groups.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="54">
+        <Name dnOrder="0">usb_host_hub.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+      <File dnOrder="55">
+        <Name dnOrder="0">sys_clk_compatibility.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/clk</Path>
+      </File>
+      <File dnOrder="56">
+        <Name dnOrder="0">osal_impl_basic.h</Name>
+        <Path dnOrder="1">Header Files/framework/osal</Path>
+      </File>
+      <File dnOrder="57">
+        <Name dnOrder="0">sys_clk_mapping.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/clk</Path>
+      </File>
+      <File dnOrder="58">
+        <Name dnOrder="0">osal_definitions.h</Name>
+        <Path dnOrder="1">Header Files/framework/osal</Path>
+      </File>
+      <File dnOrder="59">
+        <Name dnOrder="0">sys_int_mapping.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/int</Path>
+      </File>
+      <File dnOrder="60">
+        <Name dnOrder="0">FreeRTOS.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="61">
+        <Name dnOrder="0">event_groups.c</Name>
+        <Path dnOrder="1">Source Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="62">
+        <Name dnOrder="0">drv_usbfs_device.c</Name>
+        <Path dnOrder="1">Source Files/framework/driver/usb/usbfs/src/dynamic</Path>
+      </File>
+      <File dnOrder="63">
+        <Name dnOrder="0">sys_debug.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/debug</Path>
+      </File>
+      <File dnOrder="64">
+        <Name dnOrder="0">sys_module.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/common</Path>
+      </File>
+      <File dnOrder="65">
+        <Name dnOrder="0">drv_usbfs_variant_mapping.h</Name>
+        <Path dnOrder="1">Header Files/framework/driver/usb/usbfs/src</Path>
+      </File>
+      <File dnOrder="66">
+        <Name dnOrder="0">timers.c</Name>
+        <Path dnOrder="1">Source Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="67">
+        <Name dnOrder="0">mpu_wrappers.h</Name>
+        <Path dnOrder="1">Header Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="68">
+        <Name dnOrder="0">sys_queue.h</Name>
+        <Path dnOrder="1">Header Files/framework/system/common</Path>
+      </File>
+      <File dnOrder="69">
+        <Name dnOrder="0">queue.c</Name>
+        <Path dnOrder="1">Source Files/FreeRTOS</Path>
+      </File>
+      <File dnOrder="70">
+        <Name dnOrder="0">drv_usbfs_mapping.h</Name>
+        <Path dnOrder="1">Header Files/framework/driver/usb/usbfs</Path>
+      </File>
+      <File dnOrder="71">
+        <Name dnOrder="0">usb_host_client_driver.h</Name>
+        <Path dnOrder="1">Header Files/framework/usb</Path>
+      </File>
+    </Files>
+    <Templates dnOrder="1">
+      <Template dnOrder="0">
+        <Name dnOrder="0">sys_ports_static.c</Name>
+        <Path dnOrder="1">Source Files/app/system_config/default/framework/system/ports/src</Path>
+        <Checksum dnOrder="2">BC814B1E833F48A33953D65B71BC498D</Checksum>
+        <ProjectFileChecksum dnOrder="3">6A5E7229508263B61E9B312A24387025</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="1">
+        <Name dnOrder="0">system_interrupt_a.S</Name>
+        <Path dnOrder="1">Source Files/app/system_config/default</Path>
+        <Checksum dnOrder="2">7F51EC3420062CC52DBCA9144F397A6C</Checksum>
+        <ProjectFileChecksum dnOrder="3">8E6E5D3AF8864E3C736FC89F2FB4F83C</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="2">
+        <Name dnOrder="0">app3.c</Name>
+        <Path dnOrder="1">Source Files/app</Path>
+        <Checksum dnOrder="2">E1EC8C3BCDC05EF96CA197F1CD8AFE9F</Checksum>
+        <ProjectFileChecksum dnOrder="3">68E91639119871A786FD6A455D67FBBC</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="3">
+        <Name dnOrder="0">app1.c</Name>
+        <Path dnOrder="1">Source Files/app</Path>
+        <Checksum dnOrder="2">5603C99FBA11D0FBDF31889D234645A5</Checksum>
+        <ProjectFileChecksum dnOrder="3">98230E7C743ED359940FDA78067D53C8</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="4">
+        <Name dnOrder="0">app2.c</Name>
+        <Path dnOrder="1">Source Files/app</Path>
+        <Checksum dnOrder="2">0F75DC2E71CF19108E3FE82F18868133</Checksum>
+        <ProjectFileChecksum dnOrder="3">236E694DE0EB3F940923CCC98C28EA84</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="5">
+        <Name dnOrder="0">app2.h</Name>
+        <Path dnOrder="1">Header Files/app</Path>
+        <Checksum dnOrder="2">397978F71BA373B1CF7120F357F26EC3</Checksum>
+        <ProjectFileChecksum dnOrder="3">B63D874182DDB53B86181EEC76A195D5</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="6">
+        <Name dnOrder="0">app3.h</Name>
+        <Path dnOrder="1">Header Files/app</Path>
+        <Checksum dnOrder="2">A99C2BCAD366E88F23F54CE77A632AA4</Checksum>
+        <ProjectFileChecksum dnOrder="3">D19A783788A5530AE3E6BBE77044C9F0</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="7">
+        <Name dnOrder="0">app1.h</Name>
+        <Path dnOrder="1">Header Files/app</Path>
+        <Checksum dnOrder="2">76E682F493C12FEF0CC2A711284004C7</Checksum>
+        <ProjectFileChecksum dnOrder="3">427849D3FD9FBCB2FEE6BAE7050283F5</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="8">
+        <Name dnOrder="0">sys_devcon_local.h</Name>
+        <Path dnOrder="1">Header Files/app/system_config/default/framework/system/devcon/src</Path>
+        <Checksum dnOrder="2">B66F9B4DBD85DA7F9DE775E864E01395</Checksum>
+        <ProjectFileChecksum dnOrder="3">4670125F4B695D49C5A0C657C28758E1</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="9">
+        <Name dnOrder="0">sys_devcon.h</Name>
+        <Path dnOrder="1">Header Files/app/system_config/default/framework/system/devcon</Path>
+        <Checksum dnOrder="2">07580DCDEF89D9C79B062544109C5367</Checksum>
+        <ProjectFileChecksum dnOrder="3">A7C2AF4F1BFB03D52AB7ADB837E8713B</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="10">
+        <Name dnOrder="0">FreeRTOSConfig.h</Name>
+        <Path dnOrder="1">Header Files/app/system_config/default</Path>
+        <Checksum dnOrder="2">479C516B5AFED02442DBECE444737103</Checksum>
+        <ProjectFileChecksum dnOrder="3">D5046590FF1AC8C3C6AE03A58E1A3339</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="11">
+        <Name dnOrder="0">system_interrupt.c</Name>
+        <Path dnOrder="1">Source Files/app/system_config/default</Path>
+        <Checksum dnOrder="2">210653E86F9BAB2D2DBD84451A2B0FFF</Checksum>
+        <ProjectFileChecksum dnOrder="3">EBB2ED8B16B03748136155567807127D</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="12">
+        <Name dnOrder="0">system_init.c</Name>
+        <Path dnOrder="1">Source Files/app/system_config/default</Path>
+        <Checksum dnOrder="2">7ADC8032045D8C40E062FDBB8ECEB2ED</Checksum>
+        <ProjectFileChecksum dnOrder="3">A34D10E1ABD3845E8C0B99ABA2577871</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="13">
+        <Name dnOrder="0">main.c</Name>
+        <Path dnOrder="1">Source Files/app</Path>
+        <Checksum dnOrder="2">81A51474D8A80D41AD749DEAE4C1A7A3</Checksum>
+        <ProjectFileChecksum dnOrder="3">A5306EB35616F5F768CDE02BE5DB0754</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="14">
+        <Name dnOrder="0">system_definitions.h</Name>
+        <Path dnOrder="1">Header Files/app/system_config/default</Path>
+        <Checksum dnOrder="2">0FCAB5E93C10977A5E9BD418CB4D82E5</Checksum>
+        <ProjectFileChecksum dnOrder="3">1C42F13F6B1D3FBA316C420D7F9858E2</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="15">
+        <Name dnOrder="0">system_exceptions.c</Name>
+        <Path dnOrder="1">Source Files/app/system_config/default</Path>
+        <Checksum dnOrder="2">C111969CA43D6CEA1E9E33A6164E7AE0</Checksum>
+        <ProjectFileChecksum dnOrder="3">E1E0885C644BA1524321DF453BB18279</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="16">
+        <Name dnOrder="0">sys_devcon.c</Name>
+        <Path dnOrder="1">Source Files/app/system_config/default/framework/system/devcon/src</Path>
+        <Checksum dnOrder="2">54ADBD4A35BCA03C42C74182FCE41849</Checksum>
+        <ProjectFileChecksum dnOrder="3">B8E94910242F9729A0900C30934006F2</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="17">
+        <Name dnOrder="0">app.c</Name>
+        <Path dnOrder="1">Source Files/app</Path>
+        <Checksum dnOrder="2">7218F8EA97DFB9F46CE091B1460FA225</Checksum>
+        <ProjectFileChecksum dnOrder="3">B25F519F4FD1C581CC7C158C00293C72</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="18">
+        <Name dnOrder="0">system_tasks.c</Name>
+        <Path dnOrder="1">Source Files/app/system_config/default</Path>
+        <Checksum dnOrder="2">F725C07A590243546F6C017FF65B3204</Checksum>
+        <ProjectFileChecksum dnOrder="3">1F517243DFAC6883050904F77BFB23F0</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="19">
+        <Name dnOrder="0">sys_devcon_pic32mx.c</Name>
+        <Path dnOrder="1">Source Files/app/system_config/default/framework/system/devcon/src</Path>
+        <Checksum dnOrder="2">5141464248E33ABE9E7D144A2D4DC129</Checksum>
+        <ProjectFileChecksum dnOrder="3">8CDACC10D7880CC61C73FF04F7E01ACC</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="20">
+        <Name dnOrder="0">system_config.h</Name>
+        <Path dnOrder="1">Header Files/app/system_config/default</Path>
+        <Checksum dnOrder="2">0E8B5CC0E48D79CD74365DAA05064B57</Checksum>
+        <ProjectFileChecksum dnOrder="3">1988C970FF555FB85DFF51E0D0F6615F</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="21">
+        <Name dnOrder="0">app.h</Name>
+        <Path dnOrder="1">Header Files/app</Path>
+        <Checksum dnOrder="2">686B777931F5BF4B2E33297820AA85EB</Checksum>
+        <ProjectFileChecksum dnOrder="3">275AF14F3AD3194912BEAC743F9CB76A</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="22">
+        <Name dnOrder="0">rtos_hooks.c</Name>
+        <Path dnOrder="1">Source Files/app/system_config/default</Path>
+        <Checksum dnOrder="2">1B1A60B954C976ED9682C9D68D82942F</Checksum>
+        <ProjectFileChecksum dnOrder="3">7AB1B400059E985B1A1DC7D601114D48</ProjectFileChecksum>
+      </Template>
+      <Template dnOrder="23">
+        <Name dnOrder="0">sys_clk_pic32mx.c</Name>
+        <Path dnOrder="1">Source Files/app/system_config/default/framework/system/clk/src</Path>
+        <Checksum dnOrder="2">FFBC0ECD02319812A90B6AACC6A7F7F0</Checksum>
+        <ProjectFileChecksum dnOrder="3">7E425523242DC293E9529E37B7CC4DB6</ProjectFileChecksum>
+      </Template>
+    </Templates>
+    <CompilerItems dnOrder="2">
+      <C32-AS dnOrder="0">
+        <Include dnOrder="0" value="../../../../third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX"/>
+        <Include dnOrder="1" value="../../../../third_party/rtos/FreeRTOS/Source/include"/>
+        <Include dnOrder="2" value="../src/system_config/default"/>
+      </C32-AS>
+      <C32 dnOrder="1">
+        <Include dnOrder="0" value="E:\microchip\harmony\v2_03b\apps\RTOS_LCD\firmware\src"/>
+        <Include dnOrder="1" value="E:\microchip\harmony\v2_03b\apps\RTOS_LCD\firmware\src\system_config\default"/>
+        <Include dnOrder="2" value="E:\microchip\harmony\v2_03b\apps\RTOS_LCD\firmware\src\default"/>
+        <Include dnOrder="3" value="E:\microchip\harmony\v2_03b\framework"/>
+        <Include dnOrder="4" value="E:\microchip\harmony\v2_03b\apps\RTOS_LCD\firmware\src\system_config\default\framework"/>
+        <Include dnOrder="5" value="../../../../third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX"/>
+        <Include dnOrder="6" value="../../../../third_party/rtos/FreeRTOS/Source/include"/>
+        <Include dnOrder="7" value="../src/system_config/default"/>
+        <Define dnOrder="8" value="__XC"/>
+      </C32>
+    </CompilerItems>
+    <Libraries dnOrder="3">
+      <Library dnOrder="0" value="../../../../bin/framework/peripheral/PIC32MX795F512L_peripherals.a"/>
+    </Libraries>
+  </Manifest>
+</Configuration>
